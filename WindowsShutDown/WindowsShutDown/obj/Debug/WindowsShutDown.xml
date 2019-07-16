@@ -1,0 +1,275 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+WindowsShutDown
+</name>
+</assembly>
+<members>
+<member name="T:WindowsShutDown.My.Resources.Resources">
+<summary>
+  一个强类型的资源类，用于查找本地化的字符串等。
+</summary>
+</member>
+<member name="P:WindowsShutDown.My.Resources.Resources.ResourceManager">
+<summary>
+  返回此类使用的缓存的 ResourceManager 实例。
+</summary>
+</member>
+<member name="P:WindowsShutDown.My.Resources.Resources.Culture">
+<summary>
+  使用此强类型资源类，为所有资源查找
+  重写当前线程的 CurrentUICulture 属性。
+</summary>
+</member>
+<member name="F:WindowsShutDown.frmMain.networkDict">
+ <summary>
+ 网卡字典
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:WindowsShutDown.frmMain._server">
+ <summary>
+ Smobiler服务
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:WindowsShutDown.frmMain.frmMain_Load(System.Object,System.EventArgs)">
+ <summary>
+ 窗体加载
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsShutDown.frmMain.InitialNetworkInterfaces">
+ <summary>
+ 获取当前可用的网卡信息
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:WindowsShutDown.frmMain.StartServer">
+ <summary>
+ 开始服务
+ </summary>
+</member>
+<member name="M:WindowsShutDown.frmMain.StopServer">
+ <summary>
+ 停止服务
+ </summary>
+</member>
+<member name="M:WindowsShutDown.frmMain.combNets_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ 在下拉框选择变更事件重新生成二维码
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:WindowsShutDown.frmMain.btnSetting_Click(System.Object,System.EventArgs)">
+ <summary>
+ 打开设置界面
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:WindowsShutDown.frmMain.btnHelp_Click(System.Object,System.EventArgs)">
+ <summary>
+ 打开帮助界面
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsShutDown.frmMain.frmMain_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)">
+ <summary>
+ 关闭窗体前保存设定值
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsShutDown.frmMain.btnsavename_Click(System.Object,System.EventArgs)">
+ <summary>
+ 点击完成按钮后保存设定值重新生成二维码
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsShutDown.frmMain.btnGenerateQRcode_Click(System.Object,System.EventArgs)">
+ <summary>
+ 打开生成服务端二维码界面
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="T:WindowsShutDown.MobileGlobal">
+ <summary>
+ 全局类
+ </summary>
+</member>
+<member name="M:WindowsShutDown.MobileGlobal.OnServerStart(Smobiler.Core.MobileServer)">
+ <summary>
+ 在服务启动时触发
+ </summary>
+ <param name="server"></param>
+</member>
+<member name="M:WindowsShutDown.MobileGlobal.OnServerStop(Smobiler.Core.MobileServer)">
+ <summary>
+ 在服务停止时触发
+ </summary>
+ <param name="server"></param>
+</member>
+<member name="M:WindowsShutDown.MobileGlobal.OnSessionStart(System.Object,Smobiler.Core.SmobilerSessionEventArgs)">
+ <summary>
+ 在客户端会话第一次开始时触发
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsShutDown.MobileGlobal.OnSessionStop(System.Object,Smobiler.Core.SmobilerSessionEventArgs)">
+ <summary>
+ 在客户端会话结束时触发
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsShutDown.MobileGlobal.OnSessionConnect(System.Object,Smobiler.Core.SmobilerSessionEventArgs)">
+ <summary>
+ 在客户端会话重新连接时触发
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsShutDown.MobileGlobal.OnPushCallBack(System.Object,Smobiler.Core.ClientPushOpenedEventArgs)">
+ <summary>
+ 在回调推送被客户端点击时触发
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsShutDown.SmobilerForm1.SetCursorPos(System.Int32,System.Int32)">
+ <summary>
+ 注册模拟鼠标移动方法
+ </summary>
+ <param name="x"></param>
+ <param name="y"></param>
+</member>
+<member name="M:WindowsShutDown.SmobilerForm1.mouse_event(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ 注册模拟鼠标按键方法
+ </summary>
+ <param name="dwFlags"></param>
+ <param name="dx"></param>
+ <param name="dy"></param>
+ <param name="cButtons"></param>
+ <param name="dwExtraInfo"></param>
+</member>
+<member name="M:WindowsShutDown.SmobilerForm1.GetCursorPos(System.Int32[])">
+ <summary>
+ 注册获取当前鼠标坐标方法
+ </summary>
+ <param name="lpPoint"></param>
+</member>
+<member name="M:WindowsShutDown.SmobilerForm1.keybd_event(System.Byte,System.Byte,System.Int32,System.Int32)">
+ <summary>
+ 注册模拟按键方法
+ </summary>
+ <param name="bVk"></param>
+ <param name="Scan"></param>
+ <param name="dwFlags"></param>
+ <param name="dwExtraInfo"></param>
+</member>
+<member name="M:WindowsShutDown.SmobilerForm1.rightChick">
+ <summary>
+ 点击一次右键
+ </summary>
+</member>
+<member name="M:WindowsShutDown.SmobilerForm1.lefghtChick">
+ <summary>
+ 点击一次左键
+ </summary>
+</member>
+<member name="M:WindowsShutDown.SmobilerForm1.getNowPos">
+ <summary>
+ 获取当前鼠标位置
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:WindowsShutDown.SmobilerForm1.Button1_Press(System.Object,System.EventArgs)">
+ <summary>
+ 立即关机
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsShutDown.SmobilerForm1.Button2_Press(System.Object,System.EventArgs)">
+ <summary>
+ 鼠标上移
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsShutDown.SmobilerForm1.Button3_Press(System.Object,System.EventArgs)">
+ <summary>
+ 鼠标左移
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsShutDown.SmobilerForm1.Button4_Press(System.Object,System.EventArgs)">
+ <summary>
+ 鼠标右移
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsShutDown.SmobilerForm1.Button5_Press(System.Object,System.EventArgs)">
+ <summary>
+ 鼠标下移
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsShutDown.SmobilerForm1.Button6_Press(System.Object,System.EventArgs)">
+ <summary>
+ 键盘上
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsShutDown.SmobilerForm1.Button7_Press(System.Object,System.EventArgs)">
+ <summary>
+ 键盘左
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsShutDown.SmobilerForm1.Button8_Press(System.Object,System.EventArgs)">
+ <summary>
+ 键盘右
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsShutDown.SmobilerForm1.Button9_Press(System.Object,System.EventArgs)">
+ <summary>
+ 键盘下
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsShutDown.SmobilerForm1.Button10_Press(System.Object,System.EventArgs)">
+ <summary>
+ 左键单击
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:WindowsShutDown.SmobilerForm1.Button11_Press(System.Object,System.EventArgs)">
+ <summary>
+ 右键单击
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+</members>
+</doc>

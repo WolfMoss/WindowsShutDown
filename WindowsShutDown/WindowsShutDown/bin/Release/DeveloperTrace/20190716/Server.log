@@ -1,0 +1,35 @@
+2019/07/16 11:42:13 [Server] Starting 
+2019/07/16 11:42:13 [Initial] Version: 470.1548307665, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: False, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, SysTrace: False
+        BasePath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Release\
+        DefaultImagePath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Release\Resources\Image
+        DefaultAudioPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Release\Resources\Audio
+        DefaultDocumentPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Release\Resources\Document
+        DefaultUploadPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Release\Resources\Upload
+        DefaultMediaPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Release\Resources\Media
+        DefaultWebPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Release\Resources\Web
+ 
+2019/07/16 11:42:13 [Server] Started 
+2019/07/16 11:42:13 [AutoSet] Start 
+2019/07/16 11:42:17 [TcpAccept] 192.168.43.30:2323 
+2019/07/16 11:42:32 [Server] Stoping 
+2019/07/16 11:42:32 [869740039882833] Stop-StopServer-True-- 
+2019/07/16 11:42:32 [Server] Stoped 
+2019/07/16 11:42:32 [AutoSet] Stop 
+2019/07/16 11:42:32 [TcpAccept-EX] 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。 
+2019/07/16 11:49:45 [Server] Starting 
+2019/07/16 11:49:45 [Initial] Version: 470.1548307665, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: False, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, SysTrace: False
+        BasePath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Release\
+        DefaultImagePath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Release\Resources\Image
+        DefaultAudioPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Release\Resources\Audio
+        DefaultDocumentPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Release\Resources\Document
+        DefaultUploadPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Release\Resources\Upload
+        DefaultMediaPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Release\Resources\Media
+        DefaultWebPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Release\Resources\Web
+ 
+2019/07/16 11:49:45 [Server] Started 
+2019/07/16 11:49:54 [Server] Stoping 
+2019/07/16 11:49:54 [TcpAccept-EX] 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。 
+2019/07/16 11:49:55 [Server] Stoped 
+2019/07/16 11:49:55 [AutoSet] Stop 

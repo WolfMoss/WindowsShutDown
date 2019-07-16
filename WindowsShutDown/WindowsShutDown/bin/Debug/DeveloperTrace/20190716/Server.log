@@ -1,0 +1,279 @@
+2019/07/16 10:03:03 [Server] Starting 
+2019/07/16 10:03:03 [Initial] Version: 470.1548307665, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, SysTrace: False
+        BasePath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\
+        DefaultImagePath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Image
+        DefaultAudioPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Audio
+        DefaultDocumentPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Document
+        DefaultUploadPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Upload
+        DefaultMediaPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Media
+        DefaultWebPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Web
+ 
+2019/07/16 10:03:04 [Server] Started 
+2019/07/16 10:03:49 [TcpAccept] 192.168.43.30:2323 
+2019/07/16 10:03:49 [869740039882833-192.168.43.211] {"deviceOS":"Android","deviceOSVersion":"9","deviceModel":"COR-AL00","screenSize":{"width":1080,"height":2128},"density":3.0,"version":"4.8","coreVersion":"4.8.0","autoBuild":false,"isCompany":true,"extraInfo":{"package_name":"com.smobiler.app","display_name":"Smobiler","plugin_msg":null,"lowMemory":false}} 
+2019/07/16 10:04:05 [869740039882833Dump-OnStart] System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 WindowsShutDown.SmobilerForm1..ctor() 位置 E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\SmobilerForm1.vb:行号 19
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   在 System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   在 System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   在 Smobiler.Core.MobileClient.(String ) 
+2019/07/16 10:04:05 [869740039882833] Stop-DUMP-True-- 
+2019/07/16 10:04:18 [TcpAccept] 192.168.43.30:2323 
+2019/07/16 10:04:18 [869740039882833-192.168.43.211] {"deviceOS":"Android","deviceOSVersion":"9","deviceModel":"COR-AL00","screenSize":{"width":1080,"height":2128},"density":3.0,"version":"4.8","coreVersion":"4.8.0","autoBuild":false,"isCompany":true,"extraInfo":{"package_name":"com.smobiler.app","display_name":"Smobiler","plugin_msg":null,"lowMemory":false}} 
+2019/07/16 10:04:45 [Server] Starting 
+2019/07/16 10:04:45 [Initial] Version: 470.1548307665, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, SysTrace: False
+        BasePath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\
+        DefaultImagePath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Image
+        DefaultAudioPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Audio
+        DefaultDocumentPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Document
+        DefaultUploadPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Upload
+        DefaultMediaPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Media
+        DefaultWebPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Web
+ 
+2019/07/16 10:04:46 [Server] Started 
+2019/07/16 10:04:46 [AutoSet] Start 
+2019/07/16 10:04:52 [TcpAccept] 192.168.43.30:2323 
+2019/07/16 10:04:52 [869740039882833-192.168.43.211] {"deviceOS":"Android","deviceOSVersion":"9","deviceModel":"COR-AL00","screenSize":{"width":1080,"height":2128},"density":3.0,"version":"4.8","coreVersion":"4.8.0","autoBuild":false,"isCompany":true,"extraInfo":{"package_name":"com.smobiler.app","display_name":"Smobiler","plugin_msg":null,"lowMemory":false}} 
+2019/07/16 10:05:08 [869740039882833Dump-BeginDataProcess] System.InvalidCastException: 从字符串“MOUSEEVENTF_ABSOLUTE”到类型“Long”的转换无效。 ---> System.FormatException: 输入字符串的格式不正确。
+   在 Microsoft.VisualBasic.CompilerServices.Conversions.ParseDecimal(String Value, NumberFormatInfo NumberFormat)
+   在 Microsoft.VisualBasic.CompilerServices.Conversions.ToLong(String Value)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Microsoft.VisualBasic.CompilerServices.Conversions.ToLong(String Value)
+   在 WindowsShutDown.SmobilerForm1.Button2_Press(Object sender, EventArgs e) 位置 E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\SmobilerForm1.vb:行号 37
+   在 Smobiler.Core.Controls.Button.()
+   在 Smobiler.Core.Controls.Button.(String , Dictionary`2 )
+   在 Smobiler.Core.MobileClient.( )
+   在 Smobiler.Core.MobileClient.( ) 
+2019/07/16 10:05:11 [Server] Stoping 
+2019/07/16 10:05:11 [869740039882833] Stop-StopServer-True-- 
+2019/07/16 10:05:11 [TcpAccept-EX] 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。 
+2019/07/16 10:05:12 [Server] Stoped 
+2019/07/16 10:05:12 [AutoSet] Stop 
+2019/07/16 10:05:40 [Server] Starting 
+2019/07/16 10:05:40 [Initial] Version: 470.1548307665, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, SysTrace: False
+        BasePath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\
+        DefaultImagePath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Image
+        DefaultAudioPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Audio
+        DefaultDocumentPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Document
+        DefaultUploadPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Upload
+        DefaultMediaPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Media
+        DefaultWebPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Web
+ 
+2019/07/16 10:05:40 [Server] Started 
+2019/07/16 10:05:40 [AutoSet] Start 
+2019/07/16 10:05:46 [TcpAccept] 192.168.43.30:2323 
+2019/07/16 10:05:59 [869740039882833Dump-BeginDataProcess] System.InvalidCastException: 从字符串“MOUSEEVENTF_ABSOLUTE”到类型“Long”的转换无效。 ---> System.FormatException: 输入字符串的格式不正确。
+   在 Microsoft.VisualBasic.CompilerServices.Conversions.ParseDecimal(String Value, NumberFormatInfo NumberFormat)
+   在 Microsoft.VisualBasic.CompilerServices.Conversions.ToLong(String Value)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 Microsoft.VisualBasic.CompilerServices.Conversions.ToLong(String Value)
+   在 WindowsShutDown.SmobilerForm1.Button2_Press(Object sender, EventArgs e) 位置 E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\SmobilerForm1.vb:行号 37
+   在 Smobiler.Core.Controls.Button.()
+   在 Smobiler.Core.Controls.Button.(String , Dictionary`2 )
+   在 Smobiler.Core.MobileClient.( )
+   在 Smobiler.Core.MobileClient.( ) 
+2019/07/16 10:06:03 [Server] Stoping 
+2019/07/16 10:06:03 [TcpAccept-EX] 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。 
+2019/07/16 10:06:03 [869740039882833] Stop-StopServer-True-- 
+2019/07/16 10:06:04 [Server] Stoped 
+2019/07/16 10:06:04 [AutoSet] Stop 
+2019/07/16 10:16:39 [Server] Starting 
+2019/07/16 10:16:39 [Initial] Version: 470.1548307665, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, SysTrace: False
+        BasePath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\
+        DefaultImagePath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Image
+        DefaultAudioPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Audio
+        DefaultDocumentPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Document
+        DefaultUploadPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Upload
+        DefaultMediaPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Media
+        DefaultWebPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Web
+ 
+2019/07/16 10:16:39 [Server] Started 
+2019/07/16 10:16:39 [AutoSet] Start 
+2019/07/16 10:16:45 [TcpAccept] 192.168.43.30:2323 
+2019/07/16 10:16:45 [869740039882833-192.168.43.211] {"deviceOS":"Android","deviceOSVersion":"9","deviceModel":"COR-AL00","screenSize":{"width":1080,"height":2128},"density":3.0,"version":"4.8","coreVersion":"4.8.0","autoBuild":false,"isCompany":true,"extraInfo":{"package_name":"com.smobiler.app","display_name":"Smobiler","plugin_msg":null,"lowMemory":false}} 
+2019/07/16 10:20:53 [Server] Starting 
+2019/07/16 10:20:53 [Initial] Version: 470.1548307665, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, SysTrace: False
+        BasePath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\
+        DefaultImagePath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Image
+        DefaultAudioPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Audio
+        DefaultDocumentPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Document
+        DefaultUploadPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Upload
+        DefaultMediaPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Media
+        DefaultWebPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Web
+ 
+2019/07/16 10:20:53 [Server] Started 
+2019/07/16 10:20:53 [AutoSet] Start 
+2019/07/16 10:20:56 [TcpAccept] 192.168.43.30:2323 
+2019/07/16 10:20:56 [869740039882833-192.168.43.211] {"deviceOS":"Android","deviceOSVersion":"9","deviceModel":"COR-AL00","screenSize":{"width":1080,"height":2128},"density":3.0,"version":"4.8","coreVersion":"4.8.0","autoBuild":false,"isCompany":true,"extraInfo":{"package_name":"com.smobiler.app","display_name":"Smobiler","plugin_msg":null,"lowMemory":false}} 
+2019/07/16 10:24:29 [Server] Starting 
+2019/07/16 10:24:29 [Initial] Version: 470.1548307665, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, SysTrace: False
+        BasePath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\
+        DefaultImagePath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Image
+        DefaultAudioPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Audio
+        DefaultDocumentPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Document
+        DefaultUploadPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Upload
+        DefaultMediaPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Media
+        DefaultWebPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Web
+ 
+2019/07/16 10:24:29 [Server] Started 
+2019/07/16 10:24:30 [AutoSet] Start 
+2019/07/16 10:24:33 [TcpAccept] 192.168.43.30:2323 
+2019/07/16 10:24:33 [869740039882833-192.168.43.211] {"deviceOS":"Android","deviceOSVersion":"9","deviceModel":"COR-AL00","screenSize":{"width":1080,"height":2128},"density":3.0,"version":"4.8","coreVersion":"4.8.0","autoBuild":false,"isCompany":true,"extraInfo":{"package_name":"com.smobiler.app","display_name":"Smobiler","plugin_msg":null,"lowMemory":false}} 
+2019/07/16 10:27:24 [Server] Starting 
+2019/07/16 10:27:25 [Initial] Version: 470.1548307665, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, SysTrace: False
+        BasePath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\
+        DefaultImagePath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Image
+        DefaultAudioPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Audio
+        DefaultDocumentPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Document
+        DefaultUploadPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Upload
+        DefaultMediaPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Media
+        DefaultWebPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Web
+ 
+2019/07/16 10:27:25 [Server] Started 
+2019/07/16 10:27:25 [AutoSet] Start 
+2019/07/16 10:27:25 [TcpAccept] 192.168.43.30:2323 
+2019/07/16 10:29:51 [Server] Starting 
+2019/07/16 10:29:51 [Initial] Version: 470.1548307665, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, SysTrace: False
+        BasePath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\
+        DefaultImagePath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Image
+        DefaultAudioPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Audio
+        DefaultDocumentPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Document
+        DefaultUploadPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Upload
+        DefaultMediaPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Media
+        DefaultWebPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Web
+ 
+2019/07/16 10:29:51 [Server] Started 
+2019/07/16 10:29:51 [AutoSet] Start 
+2019/07/16 10:29:55 [TcpAccept] 192.168.43.30:2323 
+2019/07/16 10:29:55 [869740039882833-192.168.43.211] {"deviceOS":"Android","deviceOSVersion":"9","deviceModel":"COR-AL00","screenSize":{"width":1080,"height":2128},"density":3.0,"version":"4.8","coreVersion":"4.8.0","autoBuild":false,"isCompany":true,"extraInfo":{"package_name":"com.smobiler.app","display_name":"Smobiler","plugin_msg":null,"lowMemory":false}} 
+2019/07/16 10:30:34 [TcpAccept] 192.168.43.30:2323 
+2019/07/16 10:55:04 [Server] Starting 
+2019/07/16 10:55:04 [Initial] Version: 470.1548307665, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, SysTrace: False
+        BasePath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\
+        DefaultImagePath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Image
+        DefaultAudioPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Audio
+        DefaultDocumentPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Document
+        DefaultUploadPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Upload
+        DefaultMediaPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Media
+        DefaultWebPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Web
+ 
+2019/07/16 10:55:05 [Server] Started 
+2019/07/16 10:55:05 [AutoSet] Start 
+2019/07/16 10:55:07 [TcpAccept] 192.168.43.30:2323 
+2019/07/16 10:55:07 [869740039882833-192.168.43.211] {"deviceOS":"Android","deviceOSVersion":"9","deviceModel":"COR-AL00","screenSize":{"width":1080,"height":2128},"density":3.0,"version":"4.8","coreVersion":"4.8.0","autoBuild":false,"isCompany":true,"extraInfo":{"package_name":"com.smobiler.app","display_name":"Smobiler","plugin_msg":null,"lowMemory":false}} 
+2019/07/16 10:55:53 [TcpAccept] 192.168.43.30:2323 
+2019/07/16 10:56:43 [Server] Starting 
+2019/07/16 10:56:43 [Initial] Version: 470.1548307665, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, SysTrace: False
+        BasePath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\
+        DefaultImagePath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Image
+        DefaultAudioPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Audio
+        DefaultDocumentPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Document
+        DefaultUploadPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Upload
+        DefaultMediaPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Media
+        DefaultWebPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Web
+ 
+2019/07/16 10:56:43 [Server] Started 
+2019/07/16 10:56:43 [AutoSet] Start 
+2019/07/16 10:56:45 [TcpAccept] 192.168.43.30:2323 
+2019/07/16 11:00:15 [Server] Starting 
+2019/07/16 11:00:15 [Initial] Version: 470.1548307665, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, SysTrace: False
+        BasePath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\
+        DefaultImagePath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Image
+        DefaultAudioPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Audio
+        DefaultDocumentPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Document
+        DefaultUploadPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Upload
+        DefaultMediaPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Media
+        DefaultWebPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Web
+ 
+2019/07/16 11:00:15 [Server] Started 
+2019/07/16 11:00:15 [AutoSet] Start 
+2019/07/16 11:00:21 [TcpAccept] 192.168.43.30:2323 
+2019/07/16 11:00:21 [TcpAccept] 192.168.43.30:2323 
+2019/07/16 11:11:54 [Server] Starting 
+2019/07/16 11:11:55 [Initial] Version: 470.1548307665, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, SysTrace: False
+        BasePath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\
+        DefaultImagePath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Image
+        DefaultAudioPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Audio
+        DefaultDocumentPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Document
+        DefaultUploadPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Upload
+        DefaultMediaPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Media
+        DefaultWebPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Web
+ 
+2019/07/16 11:11:55 [Server] Started 
+2019/07/16 11:11:55 [AutoSet] Start 
+2019/07/16 11:12:05 [TcpAccept] 192.168.43.30:2323 
+2019/07/16 11:23:24 [Server] Starting 
+2019/07/16 11:23:24 [Initial] Version: 470.1548307665, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, SysTrace: False
+        BasePath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\
+        DefaultImagePath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Image
+        DefaultAudioPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Audio
+        DefaultDocumentPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Document
+        DefaultUploadPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Upload
+        DefaultMediaPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Media
+        DefaultWebPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Web
+ 
+2019/07/16 11:23:24 [Server] Started 
+2019/07/16 11:23:25 [AutoSet] Start 
+2019/07/16 11:23:29 [TcpAccept] 192.168.43.30:2323 
+2019/07/16 11:23:29 [869740039882833-192.168.43.211] {"deviceOS":"Android","deviceOSVersion":"9","deviceModel":"COR-AL00","screenSize":{"width":1080,"height":2128},"density":3.0,"version":"4.8","coreVersion":"4.8.0","autoBuild":false,"isCompany":true,"extraInfo":{"package_name":"com.smobiler.app","display_name":"Smobiler","plugin_msg":null,"lowMemory":false}} 
+2019/07/16 11:24:15 [Server] Starting 
+2019/07/16 11:24:15 [Initial] Version: 470.1548307665, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, SysTrace: False
+        BasePath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\
+        DefaultImagePath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Image
+        DefaultAudioPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Audio
+        DefaultDocumentPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Document
+        DefaultUploadPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Upload
+        DefaultMediaPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Media
+        DefaultWebPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Web
+ 
+2019/07/16 11:24:15 [Server] Started 
+2019/07/16 11:24:15 [AutoSet] Start 
+2019/07/16 11:24:18 [TcpAccept] 192.168.43.30:2323 
+2019/07/16 11:24:18 [869740039882833-192.168.43.211] {"deviceOS":"Android","deviceOSVersion":"9","deviceModel":"COR-AL00","screenSize":{"width":1080,"height":2128},"density":3.0,"version":"4.8","coreVersion":"4.8.0","autoBuild":false,"isCompany":true,"extraInfo":{"package_name":"com.smobiler.app","display_name":"Smobiler","plugin_msg":null,"lowMemory":false}} 
+2019/07/16 11:24:56 [Server] Starting 
+2019/07/16 11:24:56 [Initial] Version: 470.1548307665, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, SysTrace: False
+        BasePath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\
+        DefaultImagePath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Image
+        DefaultAudioPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Audio
+        DefaultDocumentPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Document
+        DefaultUploadPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Upload
+        DefaultMediaPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Media
+        DefaultWebPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Web
+ 
+2019/07/16 11:24:56 [Server] Started 
+2019/07/16 11:24:56 [AutoSet] Start 
+2019/07/16 11:24:59 [TcpAccept] 192.168.43.30:2323 
+2019/07/16 11:25:31 [Server] Starting 
+2019/07/16 11:25:31 [Initial] Version: 470.1548307665, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, SysTrace: False
+        BasePath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\
+        DefaultImagePath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Image
+        DefaultAudioPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Audio
+        DefaultDocumentPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Document
+        DefaultUploadPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Upload
+        DefaultMediaPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Media
+        DefaultWebPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Web
+ 
+2019/07/16 11:25:31 [Server] Started 
+2019/07/16 11:25:31 [AutoSet] Start 
+2019/07/16 11:25:50 [TcpAccept] 192.168.43.30:2323 
+2019/07/16 11:31:52 [Server] Starting 
+2019/07/16 11:31:52 [Initial] Version: 470.1548307665, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, SysTrace: False
+        BasePath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\
+        DefaultImagePath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Image
+        DefaultAudioPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Audio
+        DefaultDocumentPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Document
+        DefaultUploadPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Upload
+        DefaultMediaPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Media
+        DefaultWebPath: E:\WindowsShutDown\WindowsShutDown\WindowsShutDown\bin\Debug\Resources\Web
+ 
+2019/07/16 11:31:52 [Server] Started 
+2019/07/16 11:31:52 [AutoSet] Start 
+2019/07/16 11:31:57 [Server] Stoping 
+2019/07/16 11:31:57 [Server] Stoped 
+2019/07/16 11:31:57 [TcpAccept-EX] 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。 
+2019/07/16 11:31:57 [AutoSet] Stop 
